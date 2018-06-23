@@ -1,0 +1,4 @@
+{{ partial "header.html" . }}
+<h1>{{ sub (len (where .Site.Pages "Section" "notes")) 1 }} simple things I forget...</h1>
+{{ partial "post-list.html"  . }}
+{{ partial "footer.html" . }}

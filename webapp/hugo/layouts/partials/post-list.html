@@ -1,0 +1,5 @@
+<ul>
+    {{ range where .Paginator.Pages "Section" "ne" "" }}
+    <li><a href='{{ .URL }}'>{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>

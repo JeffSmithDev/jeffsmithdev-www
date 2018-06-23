@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+        <a href="/notes"><h3>Snippets and stuff I forget...</h3></a>
+        <!-- I hate Hugo and Go templates... -->
+        <ul>
+        {{ range first 15 (where .Site.Pages "Type" "notes") }}
+            <li><a href='{{ .URL }}'>{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+        <small><a href="/notes">[ more notes ]</a></small>
+{{ partial "footer.html" . }}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <meta name="title" content="{{ .Title }}"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="{{ .Site.Params.description }}"/>
+    <meta name="keywords" content="{{ .Site.Params.keywords }}"/>
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+<body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+<div id="wrap">
+
+    <nav id="nav" }>
+        <div id="nav-list">
+            <a href="/">Home</a>
+            {{ partial "menu.html" . }}
+        </div>
+    </nav>
+    <a id="nav-menu">
+        <div id="menu"></div>
+    </a>
+    <header id="header" class="parent justify-spaceBetween">
+        <div class="inner w100 relative">
+    <span class="f-left">
+      <a href="/">
+        <h1>
+          <span>Jeff</span> Smith
+        </h1>
+      </a>
+    </span>
+            <span id="nav-links" class="absolute right bottom">
+                {{ partial "menu.html" . }}
+            </span>
+        </div>
+    </header>
