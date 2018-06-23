@@ -11,8 +11,8 @@ I'm Jeff and I work as the Director of IT at
 
 
 You can reach me <a href="/contact"><strong>via email</strong></a>,
-    <a href="https://www.github.com/jeffsmithdev">github</a> and
-    <a href="https://www.linkedin.com/in/jeffsmithdev/">linkedin</a>.
+    <a href="https://www.github.com/jeffsmithdev"><strong>github</strong></a> and
+    <a href="https://www.linkedin.com/in/jeffsmithdev/"><strong>linkedin</strong></a>.
 
 --- Jeff
 
