@@ -21,27 +21,26 @@ html {
   background: #efefef;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 840px) {
   html {
     font-size: 18px;
   }
 }
 
 body {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 /*- Link -*/
 a {
-  color: #333333;
+  color: #333;
   text-decoration: none;
-  font-weight: 700;
 }
 
 a:hover, a:focus {
-  color: #262626;
+  text-decoration: underline;
 }
 
 /* Common classes */
@@ -123,15 +122,15 @@ body {
 p, ul, ol {
   font-size: 1em;
   /* 16px */
-  line-height: 1.8em;
+  line-height: 1.6em;
   margin-bottom: 1.5em;
   /* 24px/16px */
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 1.8em;
   /* 36px/16px */
-  line-height: 1.8em;
+  line-height: 1.6em;
   padding: 0.33335em 0;
   /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
@@ -175,13 +174,13 @@ blockquote p, blockquote ul, blockquote ol {
   p, ul, ol {
     font-size: 1em;
     /* 18px */
-    line-height: 1.8em;
+    line-height: 1.6em;
     margin-bottom: 1.3334em;
     /* 24px/18px */
   }
 
   h1 {
-    font-size: 2.6667em;
+    font-size: 1.8em;
     /* 48px/18px */
     line-height: 1.2em;
     padding: 0.25em 0;
@@ -189,9 +188,9 @@ blockquote p, blockquote ul, blockquote ol {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.6em;
     /* 36px/18px */
-    line-height: 1.8em;
+    line-height: 1.5em;
     padding: 0.66667em 0 .5em 0;
     /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
   }
@@ -321,6 +320,10 @@ blockquote p, blockquote ul, blockquote ol {
   padding-left: 10px;
   color: #333333;
   font-weight: 300;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* Separator after menu */
@@ -1059,7 +1062,9 @@ pre {
   font-size: 1em;
   line-height: 16px;
   max-width: 500px;
-  color: #b4b4b4
+  color: #b4b4b4;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .tl-dog-image {
@@ -1110,10 +1115,4 @@ form {
 
 .date {
   color: #999;
-}
-
-#nav-links {
-  img {
-
-  }
 }
