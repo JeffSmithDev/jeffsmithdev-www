@@ -170,7 +170,7 @@ blockquote p, blockquote ul, blockquote ol {
 }
 
 /*- Typography for big screen, based on 18px font-size -*/
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   p, ul, ol {
     font-size: 1em;
     /* 18px */
@@ -226,12 +226,12 @@ blockquote p, blockquote ul, blockquote ol {
 #nav a, #nav-left a {
   display: block;
   color: #333333;
-  padding: 0.33334em 0;
+  padding: 0.33334em 1em;
   font-size: 1.5em;
   font-weight: 400;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #nav a, #nav-left a {
     font-size: 1em;
   }
@@ -290,7 +290,7 @@ blockquote p, blockquote ul, blockquote ol {
   width: 100%;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #nav.menu-open {
     width: 30%;
   }
@@ -304,13 +304,13 @@ blockquote p, blockquote ul, blockquote ol {
   width: 100%;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #nav-left.menu-open-left {
     width: 30%;
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 840px) {
   #nav-links {
     display: none;
   }
@@ -346,7 +346,7 @@ blockquote p, blockquote ul, blockquote ol {
   height: 24px;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #nav-menu {
     display: none;
   }
@@ -361,7 +361,7 @@ blockquote p, blockquote ul, blockquote ol {
   height: 24px;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #nav-menu-left {
     display: none;
   }
@@ -420,7 +420,7 @@ blockquote p, blockquote ul, blockquote ol {
   width: 100%;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   .fixed {
     position: static;
   }
@@ -466,7 +466,7 @@ blockquote p, blockquote ul, blockquote ol {
   margin-bottom: 1.5em;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   #post-page {
     margin-bottom: 1.3334em;
   }
@@ -490,7 +490,7 @@ blockquote p, blockquote ul, blockquote ol {
   font-weight: 200;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   .by-line {
     display: block;
     color: #737373;
@@ -512,7 +512,7 @@ img[title="Monochrome"] {
   padding-left: 1.5em;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 840px) {
   .content ul, .content ol {
     line-height: 1.8em;
   }
@@ -1059,7 +1059,7 @@ pre {
 }
 
 .geek-code {
-  font-size: 1em;
+  font-size: .9em;
   line-height: 16px;
   max-width: 500px;
   color: #b4b4b4;

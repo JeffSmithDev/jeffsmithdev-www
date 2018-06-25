@@ -2,7 +2,7 @@
 title =  "About Me"
 +++
 
-I'm Jeff and I work as the Director of IT at
+I work as the Director of IT at
     <a href="https://www.infoquant.com">infoQuant</a> where I manage
     product deployments and perform software development.
     As time permits, I provide freelance web development and consulting.
