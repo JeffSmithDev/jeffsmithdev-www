@@ -20,7 +20,7 @@ A sample for one of my sync's:
     ignore = Name {TheVolumeSettingsFolder,.Metadata,.filler,.idsff,.Spotlight,.DS_Store,.CFUserTextEncoding}
     ignore = Name .localized
     ignore = Name .fseventsd
-    root = /home/JeffSmithDev/data-local
-    root = ssh://JeffSmithDev@192.168.101.35//Users/JeffSmithDev/data-local
+    root = /home/jeffsmithdev/data-local
+    root = ssh://jeffsmithdev@192.168.101.35//Users/jeffsmithdev/data-local
 
 
