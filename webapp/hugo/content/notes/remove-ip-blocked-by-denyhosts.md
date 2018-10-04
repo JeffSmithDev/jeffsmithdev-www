@@ -7,7 +7,7 @@ tags = [ "linux" ]
 categories = [ "sysadmin" ]
 +++
 
-Wow, this is anoying....
+Wow, this is annoying....
 
 ```
 sudo service denyhosts stop  # or whatever

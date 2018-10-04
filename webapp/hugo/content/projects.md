@@ -1,11 +1,5 @@
 +++
-layout = "default"
-author = "Jeff Smith"
-date = "2018-01-01"
-linktitle = "Projects"
-title = "Personal Projects"
-tags = [ "" ]
-categories = [ "" ]
+title = "Projects"
 +++
 
 dotSynergy Application Platform

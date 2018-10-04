@@ -7,6 +7,8 @@ tags = [ "database" ]
 categories = ["sysadmin" ]
 +++
 
-    CREATE USER fatty WITH PASSWORD "xxxxxxxxx";
-    CREATE DATABASE fattyhome;
-    GRANT ALL PRIVILEGES ON DATABASE fattyhome to fatty;
+```less
+CREATE USER fatty WITH PASSWORD "xxxxxxxxx";
+CREATE DATABASE fattyhome;
+GRANT ALL PRIVILEGES ON DATABASE fattyhome to fatty;
+```
