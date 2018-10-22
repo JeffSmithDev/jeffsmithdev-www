@@ -10,7 +10,7 @@ I work as the Director of IT at
     creating things. 
 
 
-You can reach me <a href="/contact"><strong>via email</strong></a>,
+You can reach me via
     <a href="https://www.github.com/jeffsmithdev"><strong>github</strong></a> and
     <a href="https://www.linkedin.com/in/jeffsmithdev/"><strong>linkedin</strong></a>.
 

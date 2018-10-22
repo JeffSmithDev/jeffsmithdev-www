@@ -21,12 +21,12 @@ Run:
 ```
 sudo cp ~/kim4/src/kim_*.desktop /usr/share/kservices5/ServiceMenus/
 sudo cp ~/kim4/src/bin/kim_* /usr/bin/
-mkdir /usr/share/kim
-cp ~/kim4/COPYING /usr/share/kim/kim_about.txt
-mkdir /usr/share/kim/slideshow/
-cp ~/kim4/src/slideshow/* /usr/share/kim/slideshow/
-mkdir /usr/share/kim/gallery
-cp ~/kim4/src/gallery/* /usr/share/kim/gallery
+sudo mkdir /usr/share/kim
+sudo cp ~/kim4/COPYING /usr/share/kim/kim_about.txt
+sudo mkdir /usr/share/kim/slideshow/
+sudo cp ~/kim4/src/slideshow/* /usr/share/kim/slideshow/
+sudo mkdir /usr/share/kim/gallery
+sudo cp ~/kim4/src/gallery/* /usr/share/kim/gallery
 ```
     
 From: http://www.ubuntubuzz.com/2016/05/how-to-install-kim-kde-image-menu-in.html 
