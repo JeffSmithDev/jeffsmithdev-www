@@ -9,6 +9,12 @@ categories = ["sysadmin" ]
 
 Useful to drop a db quickly...
 
-    sql
-    select pg_terminate_backend(pid) from pg_stat_activity where datname="db";
+```
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'myDB'
+  AND pid <> pg_backend_pid();
+  
+```
 
+From: https://stackoverflow.com/questions/5408156/how-to-drop-a-postgresql-database-if-there-are-active-connections-to-it
