@@ -7,5 +7,9 @@ tags = [ "linux", "ubuntu" ]
 categories = ["sysadmin" ]
 +++
 
-    sudo update-alternatives --config editor
+```less
+
+sudo update-alternatives --config editor
+
+```
 

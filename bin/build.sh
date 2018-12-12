@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cd ../webapp
+cd /home/jeff/data/dev/syntiva/jeffsmithdev-www/webapp
 gulp build:all
-cd ../bin
+cd /home/jeff/data/dev/syntiva/jeffsmithdev-www/bin
