@@ -1,4 +1,8 @@
 {{ partial "header.html" . }}
 <h1>Snippets and notes...</h1>
-{{ partial "post-list.html"  . }}
+<ul>
+  {{ range first 1000 (where .Site.Pages "Type" "notes") }}
+  <li><a href='{{ .URL }}'>{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
 {{ partial "footer.html" . }}
